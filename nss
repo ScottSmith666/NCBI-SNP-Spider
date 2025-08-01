@@ -247,7 +247,9 @@ class GetSNPs:
         print("Start get all SNPs in gene \"%s\" (id is %d)..." % (self.gene_name, gid))
 
         # get SNPs data with Selenium
-        driver = webdriver.Chrome(options=self.options)
+        print("Loading browser...")
+        driver = webdriver.Chrome(options=self.options, service=self.service)
+        print("Loading browser successful!")
         actions = ActionChains(driver)
         driver.get(QUERY_SNPS_URL + "?LinkName=gene_snp&from_uid=" + str(gid))  # Open the SNPs website.
         time.sleep(1)  # Waiting for 2 seconds.
