@@ -1,7 +1,7 @@
 # NCBI SNP Spider
 ### NCBI SNP Spider是专门用于爬取NCBI中SNP信息的程序，非常简单易用。
 ### 只要提供基因名和物种名，便可获取所有与该基因相关的SNPs。
-![](https://github.com/ScottSmith666/HMDB-Spider/blob/master/imgs/hmdb.png)
+![](https://raw.githubusercontent.com/ScottSmith666/NCBI-SNP-Spider/refs/heads/main/imgs/ncbi.png)
 
 ## 1. 安装本程序用到的依赖
 本项目依赖Python3.10软件，请自行提前安装好。
